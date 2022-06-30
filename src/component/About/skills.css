@@ -1,0 +1,35 @@
+.skills__wrapper{
+   background: #132347;
+   padding: 20px;
+   border-radius: 10px;
+}
+.skill__bar{
+ 
+height: 5px;
+width: 100%;
+background: #d7dadf;
+z-index: 999;
+position: relative;
+
+border-radius: 50px;
+}
+.skill__bar-percentage{
+    background:  rgba(29, 33, 112, 0.748);
+    height: 5px;
+    position: absolute;
+    
+    top: 0;
+    left:0 ;
+    z-index: 1000;
+    border-radius: 50px;
+}
+.skill__title span{
+    color: beige;
+}
+.skill__title{
+    margin-bottom: 10px;
+    padding-left: 10px;
+    justify-content: between;
+    display: flex;
+    align-items: center;
+}

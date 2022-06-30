@@ -1,0 +1,18 @@
+.section h1{
+  color: black;
+  font-size: .8rem;
+  left: 10px;
+  position: relative;
+  bottom: 5px;
+}
+.section p{
+  position: relative;
+  color: black;
+  font-size: .8rem;
+  text-align: center;
+  direction: rtl;
+  width: 25rem;
+  left: 1.5rem;
+  
+  
+}
