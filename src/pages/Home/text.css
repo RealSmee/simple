@@ -11,7 +11,7 @@
   font-size: .8rem;
   text-align: center;
   direction: rtl;
-  width: 40rem;
+  width:40rem;
   left: 1.5rem;
   
   
@@ -22,8 +22,5 @@
    padding: 10px 5px;
    position: relative;
   }
-  .section p{
-    width:20rem ;
-    
-  }
+ 
 }
