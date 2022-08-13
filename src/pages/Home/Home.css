@@ -134,7 +134,7 @@ body{
     height: 30%;
     background-color: rgb(16, 12, 78);
   }
-  @media screen and (max-width: 996px){
+  @media screen and (max-width: 766px){
     .clock{
         
         border-radius:50% ;
