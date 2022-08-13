@@ -143,6 +143,7 @@ body{
         align-items: center;
         justify-content: center;
         text-align: center;
+        left:150px;
     }
     .clock .number{
        position: absolute;
