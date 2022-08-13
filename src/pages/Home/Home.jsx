@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { Container, Row, Col } from "reactstrap";
-import Clock from './Clock';
+import Clock from './Clock'
 import Text from './Text';
 
 class Home extends Component {

@@ -22,10 +22,10 @@ body{
    border-radius: 80%;
    justify-content: center;
   align-items: center;
-  left:58px;
+  left: 60px;;
   bottom: 80px ;
   margin-top: 300px;
-  position: relative;
+  
 }
 .clock::before{
     content: '';

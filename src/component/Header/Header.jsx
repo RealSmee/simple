@@ -1,6 +1,6 @@
-import React, { useRef } from 'react';
+import React  from 'react';
 import './Header.css'
-import { Container ,Col} from 'reactstrap'
+import { Container } from 'reactstrap'
 import { Link } from 'react-router-dom';
 
 
@@ -16,11 +16,11 @@ const NavbarLink = [
         id: 1,
         display: 'صفحه اصلی',
         url: '/'
-    },
+    }
 ]
 function Header() {
-    const menuRef = useRef(null)
-    const menutoggle = () => menuRef.current.classList.toggle('menu-active');
+    
+   
     return (
         <header className='header'>
 
@@ -33,7 +33,7 @@ function Header() {
                         Smee
                     </div>
                     {/*ا  be nav-menu to media query (responsive) style mide ke toggle beshe*/}
-                    <div className="nav-menu" ref={menuRef} onClick={menutoggle}>
+                    <div className="nav-menu">
                         <ul className='navbar-list'>
                             {
                                 NavbarLink.map((item) => (

@@ -11,8 +11,19 @@
   font-size: .8rem;
   text-align: center;
   direction: rtl;
-  width: 25rem;
+  width: 40rem;
   left: 1.5rem;
   
   
+}
+
+@media only screen and (max-width: 720px) {
+  .section {
+   padding: 10px 5px;
+   position: relative;
+  }
+  .section p{
+    width:20rem ;
+    
+  }
 }
