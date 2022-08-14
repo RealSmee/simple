@@ -15,7 +15,7 @@ const NavbarLink = [
     {
         id: 1,
         display: 'صفحه اصلی',
-        url: '/simple'
+        url: '/'
     }
 ]
 function Header() {
