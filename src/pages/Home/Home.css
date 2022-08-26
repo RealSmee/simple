@@ -12,7 +12,7 @@ body{
   min-height: calc(100vh,50vw);
  
 }
-
+/*
 .clock{
    position: relative;
    width: 350px; 
@@ -105,7 +105,7 @@ body{
   
   
   .clock .hand {
-    /* --roation:0; */
+    /* --roation:0; ..
     position: absolute;
     bottom: 50%;
     left: 50%;
@@ -115,7 +115,7 @@ body{
     border-top-left-radius: 10px;
     background-color: black;
     transform-origin: bottom;
-    /* transform: translate(-50%) rotate(calc(var(--roation)* 1deg));*/
+    /* transform: translate(-50%) rotate(calc(var(--roation)* 1deg));..
     z-index: 10;
   }
   
@@ -134,7 +134,7 @@ body{
     height: 30%;
     background-color: rgb(16, 12, 78);
   }
-  @media screen and (max-width: 996px){
+  @media screen and (max-width: 766px){
     .clock{
         
         border-radius:50% ;
@@ -143,7 +143,11 @@ body{
         align-items: center;
         justify-content: center;
         text-align: center;
+
         left: 300px;
+
+        left:250px;
+
     }
     .clock .number{
        position: absolute;
@@ -156,3 +160,4 @@ body{
     }
     
 }
+*/
