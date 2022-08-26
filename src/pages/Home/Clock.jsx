@@ -1,4 +1,25 @@
-import React from "react";
+import React from 'react'
+
+function Clock() {
+  return (
+    <div>
+      
+    </div>
+  )
+}
+
+export default Clock
+
+
+
+
+
+
+
+
+
+
+/*import React from "react";
 import {Container,Col,Row} from "reactstrap";
 
 import './Home.css'
@@ -45,3 +66,4 @@ function Clock({hourRatio, minuteRatio, secondRatio}) {
    
 }
 export default Clock 
+*/
